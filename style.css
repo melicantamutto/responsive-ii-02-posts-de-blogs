@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Oswald&display=swap');
+*{
+    font-family: 'Oswald';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+.main-title{
+    font-size: 4em;
+}
+.main-description{
+    font-size: 1.2em;
+}
+.section-title{
+    font-size: 3em;
+}
+.post-title{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.post-paragraph{
+    font-size: 0.95em;
+}
+.read-more{
+    font-size: 1em;
+}
+@media (max-width: 1000px){
+    body{
+        font-size: 115%;
+    }
+}
+@media (max-width: 500px){
+    body{
+        font-size: 130%;
+    }
+}
